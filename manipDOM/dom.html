@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css" type="text/css" />
+</head>
+
+    <body cz-shortcut-listen="true">
+        <header>
+            <h1 class="sr-only">Espace Administrateur</h1>
+            <section class="open">
+                <h2 class="sr-only">Logo</h2>
+                <img src="https://res03.sites.3wa.io/assets/files/js/j5/demo/assets/logo.svg" alt="des point formant un soleil">
+                <!--<img src="../assets/logo.svg" alt="des point formant un soleil">-->
+            </section>
+            <nav>
+                <h2 class="sr-only">Navigation vide</h2>
+            </nav>
+        </header>
+        <main>
+            <aside class="open">
+                <nav>
+                    <h2 data-nav="user-nav" id="user">
+                        Utilisateurs<span aria-hidden="true" class="bi-caret-down"></span>
+                    </h2>
+                    <ul class="close" data-nav="user-nav">
+                        <li>
+                            <a href="">Liste des utilisateurs</a>
+                        </li>
+                        <li>
+                            <a href="">Ajouter un utilisateur</a>
+                        </li>
+                        <li>
+                            <a href="">Statistiques utilisateurs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h2 class="close" data-nav="product-nav">
+                        Produits <span aria-hidden="true" class="bi-caret-down"></span>
+                    </h2>
+                    <ul data-nav="product-nav" class="close">
+                        <li>
+                            <a href="">Liste des produits</a>
+                        </li>
+                        <li>
+                            <a href="">Ajouter un produit</a>
+                        </li>
+                        <li>
+                            <a href="">Statistiques des produits</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <h2 data-nav="cat-nav">
+                        Catégories <span aria-hidden="true" class="bi-caret-down"></span>
+                    </h2>
+                    <ul data-nav="cat-nav" class="close">
+                        <li>
+                            <a href="">Liste des catégories de produits</a>
+                        </li>
+                        <li>
+                            <a href="">Ajouter une catégorie de produits</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section>
+
+            </section>
+        </main>
+        <script type="application/javascript" src="dom.js"></script>
+    
+
+</body>
+</html>
